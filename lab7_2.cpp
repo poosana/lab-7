@@ -4,6 +4,17 @@
 using namespace std;
 
 //[Missing Code 1] Write definition of the function findGrade() here.
+char findGrade(float x){
+	char output;
+	if(x>90) output = 'A';
+	else if(x>75) output = 'B';
+	else if(x>60) output = 'C';
+	else if (x>45) output = 'D';
+	else output = 'F';
+	return output;
+
+}
+
 
 int main(){
 	//Input the number of students
